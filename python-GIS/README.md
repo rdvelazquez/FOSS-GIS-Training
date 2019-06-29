@@ -56,4 +56,7 @@ pip install plotly --upgrade  # Plotly graphing library
 
 ## 1. Introduction to python GIS
 
-Shapely is a Python package for working with planar data primitives; based on GEOS. Shapely can be used from within jupyter notebook (see the `Test Out Shapely` notebook)
+Shapely is a Python package for working with planar data primitives; based on GEOS. Shapely can be used from within jupyter notebook (see the `Exercise 1` notebook)
+
+## 2. GeoPandas and Map Projections
+

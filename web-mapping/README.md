@@ -66,3 +66,27 @@ __https://www.e-education.psu.edu/geog585/node/689__
 ### Notes:
 - GeoJSON Types: point, lineString, Polygon, Collection (multiPoint, multiLineString, multiPolygon)
 - TopoJson: geoJSON but saves space by not repeating shared borders
+- GDAL - Raster utilities
+- OGR - Vector utilities
+- Great utility for converting between formats: https://gdal.org/programs/ogr2ogr.html
+- Finding what coordinate system data is in:
+  - Can add to a new QGIS file and see in bottom right
+  - Shapefiles also have a `.prj` file with some of this info
+
+TODO: get ogr2ogr working from the command line... getting the following error:
+```
+dyld: Library not loaded: @rpath/libgif.7.dylib
+  Referenced from: /anaconda3/lib/libgdal.20.dylib
+  Reason: image not found
+Abort trap: 6
+```
+
+## 4 - 5 (skipping for now)
+
+## 6. Putting layers together with a web mapping API
+
+### Notes:
+- Mapbox extension of Leaflet is what I'll be mostly using. Some example docs from Kyle:
+  - https://docs.mapbox.com/mapbox.js/api/v3.2.0/?utm_medium=sem&utm_source=google&utm_campaign=sem%7Cgoogle%7Cbrand%7Cchko-googlesearch-pr01-dynamicsearchcampaign-nb.broad-all-landingpage-search&utm_term=brand&utm_content=chko-googlesearch-pr01-dynamicsearchcampaign-nb.broad-all-landingpage-search&gclid=Cj0KCQjw3uboBRDCARIsAO2XcYDHP1OEc2eIT1Cw_vb02MdDd7ZALcuDpqhzITTJxYsSbNxJxvXylX0aAl3SEALw_wcB
+  - https://docs.mapbox.com/mapbox-gl-js/api/
+- 

@@ -84,9 +84,31 @@ Abort trap: 6
 ## 4 - 5 (skipping for now)
 
 ## 6. Putting layers together with a web mapping API
+__https://www.e-education.psu.edu/geog585/node/759__
 
 ### Notes:
 - Mapbox extension of Leaflet is what I'll be mostly using. Some example docs from Kyle:
   - https://docs.mapbox.com/mapbox.js/api/v3.2.0/?utm_medium=sem&utm_source=google&utm_campaign=sem%7Cgoogle%7Cbrand%7Cchko-googlesearch-pr01-dynamicsearchcampaign-nb.broad-all-landingpage-search&utm_term=brand&utm_content=chko-googlesearch-pr01-dynamicsearchcampaign-nb.broad-all-landingpage-search&gclid=Cj0KCQjw3uboBRDCARIsAO2XcYDHP1OEc2eIT1Cw_vb02MdDd7ZALcuDpqhzITTJxYsSbNxJxvXylX0aAl3SEALw_wcB
   - https://docs.mapbox.com/mapbox-gl-js/api/
-- 
+- The current course material uses leaflet but they do provide a link for the archived previous version that used openLayers: https://www.e-education.psu.edu/geog585/node/783
+- Helpful, but old (early 2010s) post for making sense of all the webMapping api/package options: https://gis.stackexchange.com/questions/8032/comparing-various-javascript-mapping-libraries?rq=1
+- Basics of webMapping APIs _leaflet example_:
+  - map object _myMap = new L.map('mapID')_
+  - layers _var geoJsonLayer = new L.GeoJSON.AJAX('file.json', {
+    style: <callbackFunction with access to `feature`>
+    })_
+  - layer groups _var baseLayers = {"Grayscale": grayscale, "Streets": streets };
+
+      var overlays = {  "Cities": cities};
+
+      L.control.layers(baseLayers, overlays).addTo(map);_
+  - event handlers
+
+## 7. Drawing vector layers on the client side
+__https://www.e-education.psu.edu/geog585/node/760__
+
+### Notes:
+-
+
+### Example:
+TODO: create example leaflet app displaying geojson data on a basemap in React

@@ -2,7 +2,7 @@
 
 __https://automating-gis-processes.github.io/CSC18/index.html__
 
-Dependencies / packages used: 
+Dependencies / packages used:
 ```
 # Install numpy (v 1.13.1)
 conda install numpy
@@ -59,4 +59,13 @@ pip install plotly --upgrade  # Plotly graphing library
 Shapely is a Python package for working with planar data primitives; based on GEOS. Shapely can be used from within jupyter notebook (see the `Exercise 1` notebook)
 
 ## 2. GeoPandas and Map Projections
+geopandas install: be aware of which conda channel packages are coming from and be consistent. I was getting the following error because some packages were from conda-forge and some were from the main conda channel:
+```
+ImportError: dlopen(/anaconda3/lib/python3.7/site-packages/fiona/ogrext.cpython-37m-darwin.so, 2): Library not loaded: @rpath/libgif.7.dylib
+  Referenced from: /anaconda3/lib/libgdal.20.dylib
+  Reason: image not found
+```
+I saved the working conda environment to `environment.yml`
+See the `Exercise 2` notebook for basic geopadas usage.
 
+## 3. GeoPandas, geocoding, OpenStreeMap data and data reclassification

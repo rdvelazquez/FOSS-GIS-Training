@@ -93,6 +93,7 @@ __https://www.e-education.psu.edu/geog585/node/759__
 - The current course material uses leaflet but they do provide a link for the archived previous version that used openLayers: https://www.e-education.psu.edu/geog585/node/783
 - Helpful, but old (early 2010s) post for making sense of all the webMapping api/package options: https://gis.stackexchange.com/questions/8032/comparing-various-javascript-mapping-libraries?rq=1
 - Basics of webMapping APIs _leaflet example_:
+
   - map object _myMap = new L.map('mapID')_
   - layers _var geoJsonLayer = new L.GeoJSON.AJAX('file.json', {
     style: <callbackFunction with access to `feature`>
@@ -103,12 +104,10 @@ __https://www.e-education.psu.edu/geog585/node/759__
 
       L.control.layers(baseLayers, overlays).addTo(map);_
   - event handlers
+- Simple example leaflet map in `./basicLeafletExample/basicLeafletExample.html`
 
 ## 7. Drawing vector layers on the client side
 __https://www.e-education.psu.edu/geog585/node/760__
 
 ### Notes:
 -
-
-### Example:
-TODO: create example leaflet app displaying geojson data on a basemap in React

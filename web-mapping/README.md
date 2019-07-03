@@ -110,4 +110,12 @@ __https://www.e-education.psu.edu/geog585/node/759__
 __https://www.e-education.psu.edu/geog585/node/760__
 
 ### Notes:
--
+- Adding and symbolizing (simple formatting) KML and GeoJSON Layers
+- Again, see `./basicLeafletExample/basicLeafletExample.html`
+- Data source: https://www.opendataphilly.org/dataset/philadelphia-child-blood-lead-levels/resource/ef344a76-1512-404d-afbb-b141fd8a34e4
+
+## 8: Going beyond "dots on a map"
+__https://www.e-education.psu.edu/geog585/node/761__
+
+### Notes:
+- Again, see: `./basicLeafletExample/basicLeafletExample.html`

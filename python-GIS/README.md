@@ -69,3 +69,13 @@ I saved the working conda environment to `environment.yml`
 See the `Exercise 2` notebook for basic geopadas usage.
 
 ## 3. GeoPandas, geocoding, OpenStreeMap data and data reclassification
+- Geocoding: converting addresses into coordinates or vice versa (in python you can use a package called (geopy)[https://geopy.readthedocs.io/en/1.11.0/]
+- Basic pandas but good to remember... `.merge()` joins by key, `.join()` joins by index.
+- (osmnx)[https://github.com/gboeing/osmnx] is a python module for working with street networks from open street maps
+- see `Exercise 3`
+  
+
+## 4. Analyses (within, intersect, touch, nearest neighbour, etc)
+- Within, intersect and touch can be done in both shapely or in geopandas:
+- see problem 3 of `Exercise 3` for an example of finding overlapping polygons
+- 

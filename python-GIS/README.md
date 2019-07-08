@@ -78,4 +78,6 @@ See the `Exercise 2` notebook for basic geopadas usage.
 ## 4. Analyses (within, intersect, touch, nearest neighbour, etc)
 - Within, intersect and touch can be done in both shapely or in geopandas:
 - see problem 3 of `Exercise 3` for an example of finding overlapping polygons
+- pysal has some nice built in classifiers: https://pysal.readthedocs.io/en/latest/
+- pandas `.apply()` function is handy. the syntax is basically: `<dfName>.apply(<functionName>, <function_args(note that the fist function arg should be the row and you normally put the columnName as one of the args)>)
 - 
